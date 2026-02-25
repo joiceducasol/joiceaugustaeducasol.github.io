@@ -1,0 +1,54 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #1d0e53, #251f7a);
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+.about-section.top {
+    margin-bottom: 40px;
+    text-align: left;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 10px 0;
+}
+
+.subtitle {
+    text-align: center;
+    color: #4e4e4e;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 15px;
+    }
+    .container {
+        padding: 20px;
+    }
+    .profile-photo {
+        width: 200px;
+        height: 200px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .lead input {
+        font-size: 16px;
+    }
+}
