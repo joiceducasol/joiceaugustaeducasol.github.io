@@ -31,6 +31,6 @@ function calcularResultado(count){
         perfil="Perfil Técnico / Analítico"
         areas="TI • Programação • Engenharia • Dados • Logística • Contabilidade • Tecnologia"
     }
-    resultadoFinal = `RESULTADO:"OLÁ, GOSTARIA DE UMA CONVERSA APROFUNDADA"\nPerfil: ${perfil}`
+    resultadoFinal = "OLÁ, GOSTARIA DE UMA CONVERSA APROFUNDADA"\nPerfil: ${perfil}`
     return {perfil,areas}
 }
